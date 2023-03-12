@@ -1,0 +1,41 @@
+header.menu-box{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border: solid 1px black
+}
+
+
+#adicionar{
+    width: 70%;
+    border-radius: 8px;
+    height: 20%;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+input{
+    border-radius: 8px;
+    border: solid 1px black;
+    margin-top: 3px;
+    width: 70%;
+    height: 20%;
+}
+input::placeholder {
+    font: 18px/3 sans-serif;
+    color: black;
+}
+
+#htmlArea{
+    font-size: 15px;
+    margin-top: 3px;
+    text-align: center;
+    margin-bottom: 3px;
+}
